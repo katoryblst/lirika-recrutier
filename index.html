@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> LIRIKA | Заявка на РЕКРУТА</title>
+
+    <!-- Иконки -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+</head>
+
+<body>
+
+<div id="particles"></div>
+
+<header>
+
+    <div class="logo">
+
+        <div class="logo-box">
+         L
+        </div>
+
+        <div class="logo-text">
+            <h2>LIRIKA</h2>
+            <span>Recruit Report</span>
+        </div>
+
+    </div>
+
+</header>
+
+
+<main>
+
+<div class="title">
+
+    <div class="badge">
+        LIRIKA
+    </div>
+
+    <h1>Заявка на РЕКРУТА</h1>
+
+    <p>
+        Заполните форму ниже
+    </p>
+
+</div>
+
+
+<form id="reportForm">
+
+    <div class="card">
+
+        <div class="card-title">
+            👤 Информация
+        </div>
+
+        <div class="grid">
+
+            <div class="input-group">
+
+                <label>Имя В ЖИЗНИ</label>
+
+                <input
+                type="text"
+                id="name"
+                required
+                placeholder="Введите имя">
+
+            </div>
+
+            <div class="input-group">
+
+                <label>Static ID</label>
+
+                <input
+                type="number"
+                id="static"
+                required
+                placeholder="Введите Static ID">
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="card">
+
+        <div class="card-title">
+            💬 Discord
+        </div>
+
+        <div class="input-group">
+
+            <label>Discord ID</label>
+
+            <input
+            type="text"
+            id="discord"
+            required
+            placeholder="Введите Discord ID">
+
+        </div>
+
+
+    </div>
+<form id="reportForm">
+
+    <div class="card">
+
+        <div class="card-title">
+            🔞 Доп информация
+        </div>
+
+        <div class="grid">
+
+            <div class="input-group">
+
+                <label>Ваш возраст</label>
+
+                <input
+                type="text"
+                id="name"
+                required
+                placeholder="Введите возраст">
+
+            </div>
+
+            <div class="input-group">
+
+                <label>Сколько вы играйте на Majestic</label>
+
+                <input
+                type="number"
+                id="static"
+                required
+                placeholder="Введите срок игры">
+
+            </div>
+
+        </div>
+
+    </div>
+
+<form id="reportForm">
+
+    <div class="card">
+
+        <div class="card-title">
+            🕜Опыт 
+        </div>
+
+        <div class="grid">
+
+            <div class="input-group">
+
+                <label>Напишите ваш опыт рекртерства</label>
+
+                <input
+                type="text"
+                id="name"
+                required
+                placeholder="Ваш опыт,если нету напишите - ">
+
+            </div>
+
+            <div class="input-group">
+
+                <label>Готовы ли вы пройти обзвон?</label>
+
+                <input
+                type="number"
+                id="static"
+                required
+                placeholder="Напишите да или нет, а так же время">
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <button
+    type="submit"
+    class="submit-btn">
+
+        🚀 ОТПРАВИТЬ ЗАЯВКУ
+
+    </button>
+
+</form>
+
+</main>
+
+
+<div class="toast" id="toast">
+Заявка успешно отправлена.
+</div>
+
+<script src="particles.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
